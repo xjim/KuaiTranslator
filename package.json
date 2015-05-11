@@ -1,0 +1,122 @@
+{
+  "name": "kuai-translator",
+  "title": "Kuai Translator",
+  "id": "kuai-translator@jim0.com",
+  "description": "“快翻”即时翻译扩展(A simple translator add-on)，是一个方便快捷的中文友好翻译扩展，支持多种语言，对选词进行翻译的同时还可以进行WIKI查询。",
+  "author": "xozin",
+  "homepage": "http://jim0.com",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [
+	    {
+	        "name": "wikilan",
+	        "title": "WIKI Language",
+			"type": "menulist",
+	        "value": "en",
+	        "options": [{
+	        		"value": "zh",
+	        		"label": "zh-中文"
+	        	},{
+	        		"value": "en",
+	        		"label": "en-English"
+	        	},{
+	        		"value": "jp",
+	        		"label": "jp-Japanese"
+	        	},{
+	        		"value": "ru",
+	        		"label": "ru-Russian"
+	        	},{
+	        		"value": "spa",
+	        		"label": "spa-Spanish"
+	        	},{
+	        		"value": "kr",
+	        		"label": "kr-韩语"
+	        	},{
+	        		"value": "fr",
+	        		"label": "fr-French"
+	        	},{
+	        		"value": "ara",
+	        		"label": "ara-Arabic"
+	        	},{
+	        		"value": "pt",
+	        		"label": "pt-Portuguese"
+	        	},{
+	        		"value": "it",
+	        		"label": "it-Italian"
+	        	},{
+	        		"value": "el",
+	        		"label": "el-Greek"
+	        	},{
+	        		"value": "th",
+	        		"label": "th-Thai泰语"
+	        	}
+	        ]
+	    },
+	    {
+	        "description": "",
+	        "name": "translan",
+	        "title": "Destination Language",
+	        "type": "menulist",
+	        "value": "zh",
+	        "options": [{
+	        		"value": "auto",
+	        		"label": "Auto-自动"
+	        	},{
+	        		"value": "zh",
+	        		"label": "zh-中文"
+	        	},{
+	        		"value": "en",
+	        		"label": "en-English"
+	        	},{
+	        		"value": "jp",
+	        		"label": "jp-Japanese"
+	        	},{
+	        		"value": "wyw",
+	        		"label": "wyw-文言文"
+	        	},{
+	        		"value": "ru",
+	        		"label": "ru-Russian"
+	        	},{
+	        		"value": "spa",
+	        		"label": "spa-Spanish"
+	        	},{
+	        		"value": "kor",
+	        		"label": "kor-韩语"
+	        	},{
+	        		"value": "fra",
+	        		"label": "fra-French"
+	        	},{
+	        		"value": "ara",
+	        		"label": "ara-Arabic"
+	        	},{
+	        		"value": "pt",
+	        		"label": "pt-Portuguese"
+	        	},{
+	        		"value": "it",
+	        		"label": "it-Italian"
+	        	},{
+	        		"value": "el",
+	        		"label": "el-Greek"
+	        	},{
+	        		"value": "th",
+	        		"label": "th-Thai泰语"
+	        	}
+	        ]
+	    },
+	    {
+	        "description": "",
+	        "name": "transapi",
+	        "title": "Which API",
+	        "type": "menulist",
+	        "value": "baidu",
+	        "options": [{
+	        		"value": "baidu",
+	        		"label": "BAIDU API"
+	        	},{
+	        		"value": "google",
+	        		"label": "Google translate API"
+	        	}
+	        ]
+	    }
+    ]
+}
